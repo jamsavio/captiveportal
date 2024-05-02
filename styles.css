@@ -1,0 +1,62 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E0F2F1; /* Cor de fundo opaco */
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px; /* Borda arredondada */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="tel"] {
+  width: calc(100% - 20px); /* Largura total com margem */
+  padding: 12px;
+  border: 1px solid #d1d1d6; /* Cor da borda */
+  border-radius: 8px; /* Borda arredondada */
+  background-color: #f2f2f7; /* Cor de fundo */
+}
+
+button {
+  width: 100%;
+  background-color: #009238; /* Cor do botão */
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px; /* Borda arredondada */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007a2f;
+}
+
+/* Estilo para checkbox no formato iOS */
+.ios-checkbox .form-check-input {
+  width: 20px; /* Largura do checkbox */
+  height: 20px; /* Altura do checkbox */
+  margin-right: 5px; /* Espaçamento entre o checkbox e o texto */
+  vertical-align: middle; /* Alinhar verticalmente com o texto */
+}
+
+.ios-checkbox .form-check-label.small {
+  font-size: 14px; /* Tamanho do texto pequeno */
+  vertical-align: middle; /* Alinhar verticalmente com o checkbox */
+  display: inline-block; /* Permitir que o texto fique ao lado do checkbox */
+}
